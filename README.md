@@ -1,2 +1,1 @@
-# bookepedia
-Config files for my GitHub profile.
+bookepedia.github.io
