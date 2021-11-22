@@ -1,0 +1,280 @@
+body
+{
+    background-color: white;
+}
+.div1
+{
+    display: flex;
+    
+    justify-content: space-between;
+    /* background-color: chartreuse; */
+    height: 70px;
+    border-bottom: 2px solid rgb(26, 82, 134);
+}
+.buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.logo h4{
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    color:  rgb(28, 20, 84);
+    font-weight: bold;
+}
+.div101
+{
+
+}
+.div2
+{
+    /* background-color: chocolate; */
+    height: 35px;
+    width: 70px;
+    float: right;
+    margin: 6px;
+    text-align: center;
+    border-radius: 15px;
+    border:2px solid black ;
+    
+}
+.div2:hover
+{
+    background-color: rgb(141, 142, 138);
+    border: 1px solid rgb(118, 115, 141);
+    text-decoration: white;
+}
+.div2 h4
+{
+    color: rgb(2, 2, 90);
+    margin-top: 5px;
+}
+.div3
+{
+    background-color: rgb(30, 51, 45);
+    height: 100px;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.div3 h1
+{
+    margin: 5px;
+    padding: 12px;
+    color: blanchedalmond;
+}
+.div4
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.div4 li
+{
+   list-style-type: none;
+   color: blanchedalmond;
+   font-size: larger;
+   font-style:italic;
+   margin: 5px;
+}
+.div5
+{
+    margin-top: 30px;
+}
+.div5 button
+{
+    width:500px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 25px;
+    color: rgb(158, 160, 170);
+    border: 2px solid black;
+}
+.div5 button:hover
+{
+    border: 1px solid rgb(135, 137, 133);
+    background-color: rgb(253, 248, 202);
+}
+.div6
+{
+    /* background-color: black; */
+    height: 60px;
+ 
+}
+.div6 button
+{
+    height: 35px;
+    width: 500px;
+    align-items: center;
+    /* margin-left: 600px; */
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 1px solid rgb(212, 17, 238);
+    background-color: rgb(255, 255, 255);
+    color: rgb(23, 177, 243);
+}
+.div7
+{
+    padding-left: 50px;
+}
+.div8
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.div9
+{
+    height: 60px;
+}
+.div9 button
+{
+    height: 35px;
+    width: 500px;
+    align-items: center;
+    /* margin-left: 600px; */
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(31, 194, 17);
+}
+.div10
+{
+   
+    background-color: rgb(30, 51, 45);
+    height: 150px;
+}
+.div11
+{
+    /* background-color: rgb(243, 130, 23); */
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin: 25px;
+    margin-left: 35px;
+    text-align: center;
+   
+    font-size: 18px;
+}
+.div11 button
+{
+    /* margin-top: px; */
+    width: 150px;
+    height: 25px;
+    border-radius: 100px;
+  
+    color: rgb(139, 141, 150);
+    font-size: 15px;
+}
+.div11 h4
+{
+    font-family: 'Comfortaa', cursive;
+    
+    font-weight: bold;
+}
+.div11 i
+{
+    height: 20px;
+}
+.div11_middle{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.div10{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-family: monospace;
+    color: white;
+    
+}
+
+#insta
+{
+    filter: invert(100%);
+    height: 26px;
+}
+#twitter
+{
+    filter: invert(100%);
+
+    height: 26px;
+
+}
+#linkedin{
+    filter: invert(100%);
+
+    height: 26px;
+}
+.middle{
+    filter: invert(100%);
+
+    width: 200px;
+
+    
+
+}
+.logohead{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.middleLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+#github{
+height: 25px;
+}
+
+.logohead h4{
+    font-family: 'Comfortaa', cursive;
+   
+}
+
+.logohead p{
+    font-size: 13px;
+}
+.last {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    margin:20px;
+}
+.email button{
+    border: none;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
